@@ -4179,77 +4179,7 @@ spawn(function()
         end
     end
 end)
-local _ = v485:AddSection({"Farm Summer Token"})
-v485:AddToggle({
-    Name = "Auto Farm Summer Token",
-    Description = "T\225\187\177 \196\144\225\187\153ng Di Chuy\225\187\131n \196\144\225\186\191n V\225\187\139 Tr\195\173 Summer Token Theo Sea V\195\160 Farm Qu\195\161i [Electrified]",
-    Default = false,
-    Callback = function(v524)
-        _G.FarmSummer = v524
-        StopTween(_G.FarmSummer)
-    end
-})
-local function v527(v525)
-    pcall(function()
-        if type(topos) ~= "function" then
-            local l_LocalPlayer_5 = game:GetService("Players").LocalPlayer
-            if l_LocalPlayer_5 and l_LocalPlayer_5.Character and l_LocalPlayer_5.Character:FindFirstChild("HumanoidRootPart") then
-                l_LocalPlayer_5.Character.HumanoidRootPart.CFrame = v525
-            end
-        else
-            topos(v525)
-        end
-    end)
-end
-local function v530()
-    local _ = game:GetService("Players").LocalPlayer
-    local l_PlaceId_2 = game.PlaceId
-    if l_PlaceId_2 ~= 85211729168715 then
-        if l_PlaceId_2 ~= 79091703265657 then
-            if l_PlaceId_2 == 100117331123089 then
-                return CFrame.new(-10334.821, 390.837, -8572.301)
-            else
-                return nil
-            end
-        else
-            return CFrame.new(-5246.478, 66.381, -6015.48)
-        end
-    else
-        return CFrame.new(924.405, 6.366, 4476.727)
-    end
-end
-spawn(function()
-    while task.wait() do
-        if _G.FarmSummer then
-            pcall(function()
-                local v531 = v530()
-                if v531 then
-                    v527(v531 + Vector3.new(0, 50, 0))
-                    for _, v533 in pairs(game.Workspace.Enemies:GetChildren()) do
-                        local l_Humanoid_0 = v533:FindFirstChild("Humanoid")
-                        local l_HumanoidRootPart_4 = v533:FindFirstChild("HumanoidRootPart")
-                        if l_Humanoid_0 and l_HumanoidRootPart_4 and l_Humanoid_0.Health > 0 and l_Humanoid_0.DisplayName:find("%[Electrified%]") then
-                            repeat
-                                task.wait()
-                                AutoHaki()
-                                EquipWeapon(_G.SelectWeapon)
-                                l_HumanoidRootPart_4.CanCollide = false
-                                l_Humanoid_0.WalkSpeed = 0
-                                if v533:FindFirstChild("Head") then
-                                    v533.Head.CanCollide = false
-                                end
-                                v527(l_HumanoidRootPart_4.CFrame * CFrame.new(0, 30, 0))
-                                game:GetService("VirtualUser"):CaptureController()
-                                game:GetService("VirtualUser"):Button1Down(Vector2.new(1280, 672))
-                            until not _G.FarmSummer or not v533.Parent or l_Humanoid_0.Health <= 0
-                        end
-                    end
-                end
-            end)
-        end
-    end
-end)
-local _ = v485:AddSection({"Event Boss Pain New"})
+local _ = v485:AddSection({"Fram Boss"})
 local v537 = {}
 if World1 then
     v537 = {
