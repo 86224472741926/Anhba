@@ -3899,22 +3899,6 @@ v484:AddDiscordInvite({
     Logo = "rbxassetid://86224472741926",
     Invite = " https://discord.gg/DKbu5RY67F"
 })
-    Name = "Tiktok",
-    Description = "Link Tiktok",
-    Logo = "rbxassetid://86224472741926",
-    Invite = " https://www.tiktok.com/@nyannnyanndzvkl?lang=vi-VN"
-})
-    Name = "YouTube",
-    Description = "Link YouTube",
-    Logo = "rbxassetid://86224472741926",
-    Invite = " https://m.youtube.com/channel/UC8Y-3NVO8PhtGfpd5bj4Nqw"
-}) 
-    Name = "Instagram",
-    Description = "Link Instagram",
-    Logo = "rbxassetid://86224472741926",
-    Invite = " https://www.instagram.com/ny4nnn0k0n0k0/"
-}) 
-
 local _ = v485:AddSection({"Select Melee,Sword,Gun,Fruit"})
 _G.SelectWeapon = "Melee"
 task.spawn(function()
