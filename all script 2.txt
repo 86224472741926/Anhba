@@ -1,0 +1,531 @@
+local ScreenGui = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.10615778, 0, 0.16217947, 0)
+ImageButton.Size = UDim2.new(0, 40, 0, 40)
+ImageButton.Draggable = true
+ImageButton.Image = "http://www.roblox.com/asset/?id=78139661507572"
+
+UICorner.CornerRadius = UDim.new(1, 10) 
+UICorner.Parent = ImageButton
+
+ImageButton.MouseButton1Down:Connect(function()
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
+end)
+
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+repeat wait() until game:IsLoaded()
+local Window = Fluent:CreateWindow({
+    Title = "ny4nnn0k0n0k0",
+    SubTitle = "d4t",
+    TabWidth = 157,
+    Size = UDim2.fromOffset(450, 300),
+    Acrylic = true,
+    Theme = "Light",
+    MinimizeKey = Enum.KeyCode.End
+})
+local Tabs = {
+        Main0=Window:AddTab({ Title="Thông Tin" }),
+        Main1=Window:AddTab({ Title="Script Farm" }),
+        Main2=Window:AddTab({ Title="Farm Fruit" }),
+        Main3=Window:AddTab({ Title="Farm Chest" }),
+        Main4=Window:AddTab({ Title="Script Hop" }),
+       Main5=Window:AddTab({ Title="Script fix lag" }),
+       Main6=Window:AddTab({ Title="Script 99 night" }),
+       Main7=Window:AddTab({ Title="Script Sailor piece" }),
+       Main8=Window:AddTab({ Title="Script Rivals" }),
+       Main9=Window:AddTab({ Title="Script mm2" }),
+       Main10=Window:AddTab({ Title="Script King legacy" }),
+       Main11=Window:AddTab({ Title="Script BF có key" }),
+       Main12=Window:AddTab({ Title="Script trồng cây" }),
+       Main13=Window:AddTab({ Title="Script tsb" }),
+       Main14=Window:AddTab({ Title="Script blue lock" }),
+       Main15=Window:AddTab({ Title="Script The forge" }),
+}
+    Tabs.Main0:AddButton({
+    Title = "Discord",
+    Description = "nyann Community",
+    Callback = function()
+        setclipboard("https://discord.gg/tboyroblox-community-1253927333920899153")
+    end
+})
+
+    Tabs.Main1:AddButton({
+    Title="Redz Hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+
+Tabs.Main1:AddButton({
+    Title="GreenZ Hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaAnarchist/GreenZ-Hub/refs/heads/main/KaitunDoughKing.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Quantum",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Bear hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Huylovemy/Bearhudz/refs/heads/main/Bearhud.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Bluexhub",
+    Description="",
+    Callback=function()
+	  _G.AutoTranslate = true
+_G.SaveConfig = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Redzhub fake",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/huy384/redzHub/refs/heads/main/redzHub.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Tubor lite fram",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/refs/heads/main/MainV2.lua"))()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="Cokka hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet"https://codeberg.org/CokkaHub/Loadstring/raw/branch/main/CokkaHub.lua")()
+  end
+})
+
+Tabs.Main1:AddButton({
+    Title="NatAov hub",
+    Description="",
+    Callback=function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Team =  "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-AnhTuansitink/NatAov-Hub/refs/heads/main/ILoveYou.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Banana hub fake",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kaimm2/Owner-Tthanhhub/refs/heads/main/BloxFruit/Main.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Void hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/DuyYeuEmNhieuLam/Dev-Void-Hub/refs/heads/main/Void%20Hub"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Sigma hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/SigmaHubDangCap/BloxFruit/refs/heads/main/MainBloxFruit.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Moon hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-Moonlight/Moonlight/refs/heads/main/Main"))()
+  end
+})
+Tabs.Main2:AddButton({
+    Title="Auto fruit no name",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/marisdeptrai/Script-Free/main/FruitFinder.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Hao hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TranGiaHao-source/HaoModHub/refs/heads/main/HUB_VIP_BY_HAO"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Xero hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="HDanh hub",
+    Description="",
+    Callback=function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+
+getgenv().team = "Marines" -- Marines or Pirates
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/fixlagbyhdanh.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Night mystric hub",
+    Description="",
+    Callback=function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+
+getgenv().team = "Marines" -- Marines or Pirates
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NightMystic/Bloxfruits/refs/heads/main/Script.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Red hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/longhihilonghihi-hub/MainV1/refs/heads/main/RedVietNam.Lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Orange hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HieuDepTrai-Z/Dev_Orange/refs/heads/main/OrangeHub.lua"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Mixi hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/mixihubvip/mixihubvip/refs/heads/main/MixiHub"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Zen hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Itz-Npg/Roblox-Script/main/zenhubbf.lua", true))()
+  end
+})
+Tabs.Main2:AddButton({
+    Title="Night hub auto fruit",
+    Description="",
+    Callback=function()
+	  getgenv().Config = {
+
+    Team = "Pirates",
+
+    Settings = {
+
+        BlacklistFruits = {"Rocket Fruit", "Blade Fruit", "Smoke Fruit"}, -- Blacklisted Fruits
+
+        WebhookStoreFruit = {
+
+            Enabled = true,
+
+            Url = "" -- Your Webhook Url
+
+        }
+
+    }
+
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/290b11f6d622446241703db34703dea3.lua"))()
+  end
+})
+
+Tabs.Main3:AddButton({
+    Title="Auto chets ",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Graihub/graihubfarmchestv2/refs/heads/main/farmchestv2"))()
+  end
+})
+
+Tabs.Main3:AddButton({
+    Title="Zero x hub auto chets",
+    Description="",
+    Callback=function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Team = "Marines"
+getgenv().World = nil
+getgenv()["Black Screen"] = false
+getgenv().Config = {
+    ["Chest Farm"] = {
+        ["Weapon"] = "Melee",
+        ["Bosses"] = {}, -- Example: {"Urban", "Deandre", "Diablo"}
+        ["Items Stop"] = {"Fist Of Darkness", "God's Chalice"},
+        ["Get Cyborg"] = false,
+        ["Hop after collecting enough chests"] = nil, -- example: 999999999999
+        ["Spawn"] = {
+            ["Use Key - Fist Of Darkness"] = true,
+            ["Use Key - God's Chalice"] = true
+        },
+        ["FPS Booster"] = false
+    }
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a192a3c89814f31c32ce5a4b465fed9a.lua"))()
+  end
+})
+
+Tabs.Main3:AddButton({
+    Title="Trong Nguyen hub auto chets",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/sgrea62-cloud/kaluloo/refs/heads/main/Kalulo"))()
+  end
+})
+Tabs.Main3:AddButton({
+    Title="Skull hub",
+    Description="",
+    Callback=function()
+	  getgenv().SH_Settings = {
+        ["MainConfig"] = {
+            ["Enable Farm"] = true,
+            ["Version Farm"] = "1", -- Version 1 Very Fast 2 Slow But Safe
+            ["Sniper Legendary Item"] = false
+        },
+        ["Settings"] = {
+            ["Choose Team"] = "Marines",
+            ["White Screen"] = false,
+            ["Reset Anti Detect"] = true,
+            ["Time Checker"] = 300, -- Check Time For Next Server
+            ["Hop 2"] = false,
+            ["Webhook"] = {
+                ["Enable Webhook"] = false,
+                ["Link"] = "", -- Discord Webhook Link
+                ["Thumbnail"] = "",
+                ["Lock Beli"] = 1000000000,
+                ["Ping User ID"] = "everyone" -- Only ID
+            }
+        },
+        ["FruitSniper"] = {
+            ["Enable Sniper Fruit"] = false,
+            ["Fruit"] = {
+                "Leopard-Leopard",
+                "Kitsune-Kitsune",
+                "Dragon-Dragon",
+                "Yeti-Yeti"
+            }
+        },
+        ["Legendary Sword"] = {
+            ["Enable Auto Buy"] = false
+        },
+        ["Aura Haki"] = {
+            ["Enable Auto Buy"] = false
+        }
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xxhumggxx/SkullHub/refs/heads/main/ChestV2.lua"))()
+  end
+})
+Tabs.Main4:AddButton({
+    Title="Teddy hub hop sv",
+    Description="",
+    Callback=function()
+	  repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teddyseetink/Haidepzai/refs/heads/main/TEDDYHUB-FREEMIUM"))()
+  end
+})
+
+Tabs.Main4:AddButton({
+    Title="Night x hub hop sv",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://github.com/WhiteX1208/Scripts/blob/main/HopScript.luau?raw=true"))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="fix lag no name",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://pastefy.app/96m6gCwx/raw"))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="nyann siu fix lag",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/86224472741926/Anhba/refs/heads/main/Fix%20Lag%20100%25.txt"))()
+  end
+})
+Tabs.Main5:AddButton({
+    Title="fix lag",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Graihub/graihubfixlagv3/refs/heads/main/fixlagv3"))()
+  end
+})
+Tabs.Main6:AddButton({
+    Title="Than Hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+  end
+})
+Tabs.Main1:AddButton({
+    Title="Banana fake",
+    Description="",
+    Callback=function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+
+getgenv().Key = "XyZpQrStUvWxYzAbCdEfGhIjKl" 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ohofo2279/Premium/refs/heads/main/BF-BananaCat.lua"))()
+  end
+})
+Tabs.Main7:AddButton({
+    Title="Omg hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Blue-Lock:-Rivals-OMG-Hub-29091"))()
+  end
+})
+Tabs.Main7:AddButton({
+    Title="Solix hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
+  end
+})
+Tabs.Main8:AddButton({
+    Title="Solix hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
+  end
+})
+Tabs.Main8:AddButton({
+    Title="CM hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src"))()
+  end
+})
+Tabs.Main8:AddButton({
+    Title="Than Hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2529a5f9dfddd5523ca4e22f21cceffa.lua"))()
+  end
+})
+Tabs.Main9:AddButton({
+    Title="Thunder hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
+  end
+})
+Tabs.Main10:AddButton({
+    Title="Omg hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  end
+})
+Tabs.Main11:AddButton({
+    Title="Omg hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+  end
+})
+Tabs.Main11:AddButton({
+    Title="HoHo hub",
+    Description="",
+    Callback=function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+})
+Tabs.Main12:AddButton({
+    Title="Bonk hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://bonkhub.online/loader.lua",true))()
+  end
+})
+Tabs.Main12:AddButton({
+    Title="Lumin hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://lumin-hub.lol/loader.lua",true))()
+  end
+})
+Tabs.Main13:AddButton({
+    Title="Senpai hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Senpai1997/Scripts/refs/heads/main/SenpaihubTheStrongestBattlegroundsAimlockAutoblock.lua"))()
+  end
+})
+Tabs.Main13:AddButton({
+    Title="Hater hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Perfixt/Hater-Hub-v3.25/refs/heads/main/ByDizzyHax"))()
+  end
+})
+Tabs.Main14:AddButton({
+    Title="Omg hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Blue-Lock:-Rivals-OMG-Hub-29091"))()
+  end
+})
+Tabs.Main14:AddButton({
+    Title="Airflow hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
+  end
+})
+Tabs.Main14:AddButton({
+    Title="Dehism hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dehism/Dehism/refs/heads/main/Inf%20Spins%20Auto%20Dehism",true))()
+  end
+})
+Tabs.Main15:AddButton({
+    Title="Speed hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+})
+Tabs.Main15:AddButton({
+    Title="Vxeze hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/f3e2379f5d38627e"))()
+  end
+})
+Tabs.Main15:AddButton({
+    Title="Solix hub",
+    Description="",
+    Callback=function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
+  end
+})
+
