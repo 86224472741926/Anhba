@@ -186,12 +186,6 @@ loadstring(game:HttpGet("https://github.com/LeafHubAcademy/LeafHub/raw/refs/head
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/MainBloxFruit.lua"))()
   end
   })
-  AddButton(Tab1o, {
-     Name = "Xenon hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ngvanduy11/Xenon-Hub/refs/heads/main/XenonNew.lua.txt"))())
-  end
-  })
   AddButton(Tab2o, {
      Name = "Omg hub",
     Callback = function()
