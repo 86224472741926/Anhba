@@ -7,13 +7,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          },
         Key = {
         KeySystem = true,
-        Title = "Get Key Đi",
+        Title = "Get Keyi",
         Description = "not thing",
         KeyLink = "https://discord.gg/k6QMSs2n3",
         Keys = {"AEEhyV01TkiAkZErqZXGN-h4f"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Key Đúng.",
+        CorrectKey = "Key Đúng",
        Incorrectkey = "Key sai",
        CopyKeyLink = "Copied to Clipboard"
       }
@@ -186,6 +186,18 @@ loadstring(game:HttpGet("https://github.com/LeafHubAcademy/LeafHub/raw/refs/head
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/Okhubhere/refs/heads/main/MainBloxFruit.lua"))()
   end
   })
+  AddButton(Tab1o, {
+     Name = "Xenon hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ngvanduy11/Xenon-Hub/refs/heads/main/XenonNew.lua.txt"))())
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "nYaNn os fram",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/86224472741926/Anhba/refs/heads/main/Fram%20nyann.txt"))()
+  end
+  })
   AddButton(Tab2o, {
      Name = "Omg hub",
     Callback = function()
@@ -220,6 +232,12 @@ loadstring(game:HttpGet("https://github.com/LeafHubAcademy/LeafHub/raw/refs/head
      Name = "Dragon hub premium",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dragonhubdev/dragonwitheveryone/refs/heads/main/Main-Premium.lua"))()
+  end
+  }) 
+  AddButton(Tab2o, {
+     Name = "Wano hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/FruitBlox/refs/heads/main/Wano", true))()
   end
   }) 
   AddButton(Tab3o, {
