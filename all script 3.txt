@@ -8,7 +8,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Key = {
         KeySystem = true,
         Title = "Get Key Đi",
-        Description = "",
+        Description = "not thing",
         KeyLink = "https://discord.gg/k6QMSs2n3",
         Keys = {"AEEhyV01TkiAkZErqZXGN-h4f"},
         Notifi = {
@@ -44,7 +44,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab12o = MakeTab({Name = "Script 99 Night"})
      local Tab13o = MakeTab({Name = "Script Rivals"})
      local Tab14o = MakeTab({Name = "Script Tsb"})
-     local Tab15o = MakeTab({Name = "Script Blue lock"})
+     local Tab15o = MakeTab({Name = "Script The forge"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -637,20 +637,26 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/r
   end
   }) 
   AddButton(Tab14o, {
-     Name = "Napoleon hub",
+     Name = "Solix hub",
     Callback = function()
-	  loadstring(game:HttpGet('https://pastebin.com/raw/md6KzXD6'))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
+  end
+  }) 
+  AddButton(Tab14o, {
+     Name = "CM hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/10cxm/loader/refs/heads/main/src"))()
   end
   }) 
   AddButton(Tab15o, {
-     Name = Omg hub",
+     Name = "Speed hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://rawscripts.net/raw/UPD-Blue-Lock:-Rivals-OMG-Hub-29091"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   }) 
   AddButton(Tab15o, {
-     Name = "Airflow hub",
+     Name = "Solix hub",
     Callback = function()
-	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/255ac567ced3dcb9e69aa7e44c423f19.lua"))()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/meobeo8/a/a/a"))()
   end
   }) 
