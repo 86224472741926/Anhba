@@ -10,7 +10,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Title = "Get key điiii",
         Description = "Script tổng hợp",
         KeyLink = "",
-        Keys = {"🄽🅈🄰🄽🄽"},
+        Keys = {"nyanndz"},
         Notifi = {
         Notifications = true,
         CorrectKey = "Chúc mừng key chích xác✅",
