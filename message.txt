@@ -1315,9 +1315,9 @@ end
 
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Library/refs/heads/main/redz-V5-remake/main.luau"))()
 local Window = redzlib:MakeWindow({
-    Title = "nyann os fram",
+    Title = "nyann os fram v1",
     SubTitle = "by nyann",
-    SaveFolder = "taynaiget.json"
+    SaveFolder = "nyannnaiget.json"
 })
 
 local Minimizer = Window:NewMinimizer({
@@ -1350,13 +1350,13 @@ local Tabs = {
 Tabs.Info:AddSection("Information")
 
 Tabs.Info:AddDiscordInvite({
-	Title = "Tay hub | Community",
+	Title = "nyann | Community",
 	Description = "nyann community.",
 	Banner = "rbxassetid://86224472741926", 
 	Logo = "rbxassetid://86224472741926",
-	Invite = "https://discord.gg/75HaB35ymY",
-	Members = 3600000, 
-	Online = 3200, 
+	Invite = "https://discord.gg/Vc2WszrNX",
+	Members = 6777777777, 
+	Online = 3600, 
 })
 Tabs.Info:AddSection("Status Server")
 
@@ -1366,7 +1366,7 @@ Tabs.Hop:AddSection("Server Browser")
 local IsHopping = false
 
 local HopToggle = Tabs.Hop:AddToggle({
-    Name = "Auto Hop Full Moon",
+    Name = "Hop Full Moon",
     Default = false,
     Callback = function(Value)
         IsHopping = Value
@@ -1427,9 +1427,9 @@ local HopToggle = Tabs.Hop:AddToggle({
 
                                     -- Hiển thị thông báo với jobid
                                     Window:Notify({
-                                        Title = "Tay hub",
+                                        Title = "nyann",
                                         Content = "Đã vào server: " .. selected,
-                                        Image = "rbxassetid://96454140798208",
+                                        Image = "rbxassetid://86224472741926",
                                         Duration = 5
                                     })
 
@@ -12097,8 +12097,8 @@ end
 StartMainLoops()
 
 Window:Notify({
-  Title = "Tay hub",
-  Content = "Tay hub da comeback",
-  Image = "rbxassetid://96454140798208",
+  Title = "Load success",
+  Content = "nyann",
+  Image = "rbxassetid://86224472741926",
   Duration = 5
 })
